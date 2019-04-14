@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.vortex.ota.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -31,13 +31,13 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
-import org.pixelexperience.ota.R;
-import org.pixelexperience.ota.UpdaterReceiver;
-import org.pixelexperience.ota.UpdatesActivity;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.vortex.ota.R;
+import org.vortex.ota.UpdaterReceiver;
+import org.vortex.ota.UpdatesActivity;
+import org.vortex.ota.misc.StringGenerator;
+import org.vortex.ota.misc.Utils;
+import org.vortex.ota.model.UpdateInfo;
+import org.vortex.ota.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.NumberFormat;

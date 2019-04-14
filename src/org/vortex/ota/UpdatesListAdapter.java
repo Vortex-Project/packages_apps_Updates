@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.vortex.ota;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -46,14 +46,14 @@ import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.pixelexperience.ota.controller.UpdaterController;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.PermissionsUtils;
-import org.pixelexperience.ota.misc.StringGenerator;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.vortex.ota.controller.UpdaterController;
+import org.vortex.ota.controller.UpdaterService;
+import org.vortex.ota.misc.Constants;
+import org.vortex.ota.misc.PermissionsUtils;
+import org.vortex.ota.misc.StringGenerator;
+import org.vortex.ota.misc.Utils;
+import org.vortex.ota.model.UpdateInfo;
+import org.vortex.ota.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
