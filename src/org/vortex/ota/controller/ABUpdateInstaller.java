@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.vortex.ota.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,10 +25,10 @@ import android.support.v7.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.pixelexperience.ota.misc.Constants;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.vortex.ota.misc.Constants;
+import org.vortex.ota.misc.Utils;
+import org.vortex.ota.model.Update;
+import org.vortex.ota.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.vortex.ota;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -28,8 +28,8 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import org.json.JSONException;
-import org.pixelexperience.ota.download.DownloadClient;
-import org.pixelexperience.ota.misc.Utils;
+import org.vortex.ota.download.DownloadClient;
+import org.vortex.ota.misc.Utils;
 
 import java.io.File;
 import java.io.IOException;

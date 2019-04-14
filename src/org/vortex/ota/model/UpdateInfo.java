@@ -14,32 +14,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.model;
+package org.vortex.ota.model;
 
-public interface UpdateBaseInfo {
-    String getName();
+import java.io.File;
 
-    String getDownloadId();
+public interface UpdateInfo extends UpdateBaseInfo {
+    UpdateStatus getStatus();
 
-    long getTimestamp();
+    int getPersistentStatus();
 
-    String getVersion();
-
-    String getDownloadUrl();
+    File getFile();
 
     long getFileSize();
 
-    String getDonateUrl();
+    int getProgress();
 
-    String getForumUrl();
+    long getEta();
 
-    String getWebsiteUrl();
+    long getSpeed();
 
-    String getNewsUrl();
+    int getInstallProgress();
 
-    String getMaintainer();
+    boolean getAvailableOnline();
 
-    String getMaintainerUrl();
-
-    String getHash();
+    boolean getFinalizing();
 }
